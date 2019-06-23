@@ -8,6 +8,7 @@ h2{
 }
 p1{
   border-bottom: 1px solid black;
+  font-size: 15px;
 }
 p2{
   color: #FAF9A0;
@@ -37,7 +38,6 @@ body{
   color: #FAF9A0;
   font-size: 35px;
   margin-bottom: 10px;
-  transition: all 5s ease-in-out;
 }
 .titledisc{
   background: transparent;
@@ -57,3 +57,28 @@ body{
   display: table;
   clear: both;
 }
+.imgnatalie {
+  margin-top: 15px;
+  width: 50%;
+  height: 200px;
+}
+.button1 {
+  background: darkgrey;
+  border-color: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 40px;
+  margin-top: 20px;
+  font-family: monospace;
+  border-radius: 25px;
+  padding: 10px;
+  width: 80px;
+  }
+  .button1:hover
+  {
+    background-color: darkred;
+    cursor: pointer;
+  }
+  .mySlides {display:none;}
