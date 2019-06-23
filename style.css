@@ -1,0 +1,59 @@
+h1{
+  background-position: left;
+  color: black;
+}
+h2{
+  text-align: left;
+  color: black;
+}
+p1{
+  border-bottom: 1px solid black;
+}
+p2{
+  color: #FAF9A0;
+  font-size: 17px;
+  border-top: .5px solid white;
+  border-bottom: .5px solid white;
+}
+body{
+  margin: 5;
+  padding: 5;
+  text-align: center;
+  background: #5F5F60;
+  background-position: center;
+  font-family: monospace;
+  font-size: 14px;
+}
+.titlebox{
+  width: 160px;
+  height: 85px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-top: 2px solid black;
+  border-left: .5px solid black;
+  border-right: .5px solid black;
+  border-bottom: 2px solid black;
+  color: #FAF9A0;
+  font-size: 35px;
+  margin-bottom: 10px;
+  transition: all 5s ease-in-out;
+}
+.titledisc{
+  background: transparent;
+  border:none;
+  outline: none;
+  color: #F8F7E2  ;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 25px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
