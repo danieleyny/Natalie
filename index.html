@@ -12,21 +12,25 @@
   <div class="column">
     <p2> LANDSCAPES</p2>
     <br />
-    <div class="imgnatalie1">
-      <img class="mySlides" src="image/ocean1.png" >
-      <img class="mySlides" src="image/natalie.png">
-      <button class="button1" onclick="plusDivs1(-1)">&#10094;</button>
-      <button class="button2" onclick="plusDivs1(1)">&#10095;</button>
-    </div>
+      <div class="imgnatalie1">
+        <img class="mySlides" src="image/desert1.png">
+        <img class="mySlides" src="image/desert.png">
+        <img class="mySlides" src="image/natalie.png">
+          <button class="button1" onclick="plusDivs1(-1)">&#10094;</button>
+          <p4 class="tooltip1">COLLECTION 1</p4>
+          <button class="button2" onclick="plusDivs1(1)">&#10095;</button>
+      </div>
   </div>
   <div class="column">
     <p2> PORTRAITS </p2>
     <br />
       <div class="imgnatalie">
-        <img class="mySlides1" src="image/beach1.png" >
+        <img class="mySlides1" src="image/beach1.png">
         <img class="mySlides1" src="image/beach.png">
-        <button class="button3" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="button4" onclick="plusDivs(1)">&#10095;</button>
+        <img class="mySlides1" src="image/ocean1.png">
+          <button class="button3" onclick="plusDivs(-1)">&#10094;</button>
+          <p4 class="tooltip2">COLLECTION 2</p4>
+          <button class="button4" onclick="plusDivs(1)">&#10095;</button>
       </div>
   </div>
 </div>
@@ -34,11 +38,7 @@
 
 
 
-
-
-
-
-
+<!-- script for picture scroll -->
 <script>
 var slideIndex = 1;
 showDivs1(slideIndex);
@@ -60,8 +60,7 @@ function showDivs1(n) {
 </script>
 
 
-
-
+<!-- Break Between Scripts for the two sides of slides -->
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -81,6 +80,10 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 </script>
+
+<!-- script for tooltip -->
+
+
 
 
 </body>

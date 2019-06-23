@@ -65,7 +65,7 @@ body{
 }
 .imgnatalie1 {
   margin-top: 15px;
-  width: 50%;
+  width: 65%;
   height: 200px;
   margin-left: 100px;
 }
@@ -77,11 +77,12 @@ body{
   font-weight: bold;
   letter-spacing: 2px;
   height: 20px;
-  margin-right: 0%;
+
   font-family: monospace;
   border-radius: 25px;
   width: 20px;
   margin-top: 5px;
+  margin-left: -50px;
   }
   .button1:hover
   {
@@ -114,11 +115,12 @@ body{
       font-weight: bold;
       letter-spacing: 2px;
       height: 20px;
-      margin-right: 0%;
+
       font-family: monospace;
       border-radius: 25px;
       width: 20px;
       margin-top: 5px;
+      margin-left: -50px;
       }
       .button3:hover
       {
@@ -146,3 +148,11 @@ body{
   .mySlides {display:none;}
 
   .mySlides1 {display:none;}
+  .tooltip1 {
+    color:red;
+    font-size: 10px;
+   }
+   .tooltip2 {
+     color:red;
+     font-size: 10px;
+    }
